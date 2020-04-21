@@ -5,3 +5,9 @@
 * tap to mute
 * upload your videos
 * watch them in realtime
+
+## Technology stack used
+* Firebase
+* Exoplayer
+* recycler view
+* implementing texture view
