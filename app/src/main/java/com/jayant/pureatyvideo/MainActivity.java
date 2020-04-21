@@ -63,15 +63,15 @@ public class MainActivity extends AppCompatActivity {
         mStorageRef = FirebaseStorage.getInstance().getReference();
         updateRecyclerView();
 
-        // findViewById(R.id.floatingActionButton).setOnClickListener(new View.OnClickListener() {
-        //     @Override
-        //     public void onClick(View view) {
-        //         Intent takeVideoIntent = new Intent(MediaStore.ACTION_VIDEO_CAPTURE);
-        //         if (takeVideoIntent.resolveActivity(getPackageManager()) != null) {
-        //             startActivityForResult(takeVideoIntent, REQUEST_VIDEO_CAPTURE);
-        //         }
-        //     }
-        // });
+        findViewById(R.id.floatingActionButton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent takeVideoIntent = new Intent(MediaStore.ACTION_VIDEO_CAPTURE);
+                if (takeVideoIntent.resolveActivity(getPackageManager()) != null) {
+                    startActivityForResult(takeVideoIntent, REQUEST_VIDEO_CAPTURE);
+                }
+            }
+        });
 
         mRecyclerView = findViewById(R.id.recycler_view);
         initRecyclerView();
