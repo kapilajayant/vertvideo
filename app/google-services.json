@@ -1,42 +1,42 @@
 {
   "project_info": {
     "project_number": "139429419779",
-    "firebase_url": "https://pureatyvideo.firebaseio.com",
+    "firebase_url": "",
     "project_id": "pureatyvideo",
-    "storage_bucket": "pureatyvideo.appspot.com"
+    "storage_bucket": ""
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:139429419779:android:ba1d9fd6b4116ae0252736",
+        "mobilesdk_app_id": "",
         "android_client_info": {
-          "package_name": "com.jayant.pureatyvideo"
+          "package_name": ""
         }
       },
       "oauth_client": [
         {
-          "client_id": "139429419779-uag6vb01pqog5u940psg2pkvpevofjg8.apps.googleusercontent.com",
+          "client_id": "",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.jayant.pureatyvideo",
-            "certificate_hash": "f36da918a163ab44b477e9b1440e70996580fd71"
+            "package_name": "",
+            "certificate_hash": ""
           }
         },
         {
-          "client_id": "139429419779-0k9oraagphfiph7ju9hqmc49dlieke26.apps.googleusercontent.com",
+          "client_id": "",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAYBUkJ2dpsmqzvmI-sNuku-DU_vTf1PZs"
+          "current_key": ""
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "139429419779-0k9oraagphfiph7ju9hqmc49dlieke26.apps.googleusercontent.com",
+              "client_id": "",
               "client_type": 3
             }
           ]
